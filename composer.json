@@ -1,0 +1,21 @@
+{
+    "name": "lapaduga/hexlet-slim-example",
+    "autoload": {
+        "psr-4": {
+            "Lapaduga\\HexletSlimExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lapaduga",
+            "email": "deniskotov29042015@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7",
+        "slim/http": "^1.4",
+        "slim/php-view": "^3.2",
+        "php-di/php-di": "^7.0"
+    }
+}
